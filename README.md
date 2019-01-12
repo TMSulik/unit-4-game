@@ -3,7 +3,7 @@ This project is a number-matching game.
 RULES:
 At the start of each new round:
 1. A target number between 19 and 120 is randomly generated and displayed. 
-2. The four gems are assigned new random numbers between 1 and 12.
+2. The four gems are assigned unique random numbers between 1 and 12.
 The object of the game is to arrive at the target number by clicking on the gems.
 When the player clicks on a gem, its hidden number is added to the player’s total.
 If the player goes over the target number, the player loses.

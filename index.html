@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Unit 4 Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+  </head>
+
+  <body>
+    <div class="jumbotron background">
+      <h1 class="title heading">Crystals Collector</h1>
+      <button class="tiny">
+        <span class="ui-button-text">Hide instructions</span>
+      </button>
+    </div>
+    
+    <div class="wrapper">
+      <h2 class="rules heading">Rules</h2>
+      <div class="box rules" id="instructions">
+        <ul class="instructions_text">
+          <li>Each gem is assigned a random number at the start of every round.</li>
+          <li>Clicking on a gem adds its hidden number to the Player’s Total.</li>
+          <li>If the Player’s Total matches the Target Number, you win.</li>
+          <li>If the Player’s Total exceeds the Target Number, you lose.</li>
+        </ul>
+      </div>
+
+      <h2 class="heading">Score</h2>
+      <div class="box row small"><h3 class="col-md-6 box_text" id="wins">Wins: 0</h3><h3 class="col-md-6 box_text" id="losses">Losses: 0</h3></div>
+      
+      <h2 class="heading">Target number</h2>
+      <div class="box" id="target_number">?</div>
+      <div class="buttons">
+        <button id="topaz"><img class="gem" src="assets/images/topaz.png" alt="topaz"/></button>
+        <button id="ruby"><img class="gem" src="assets/images/ruby.png" alt="ruby"/></button>
+        <button id="sapphire"><img class="gem" src="assets/images/sapphire.png" alt="sapphire"/></button>
+        <button id="emerald"><img class="gem" src="assets/images/emerald.png" alt="emerald"/></button>
+      </div>
+      <h2 id="timer_header" class="heading">Player's total</h2>
+      <div class="box" id="player_sum">0</div>
+    </div>
+    <footer class="footer">
+      <h5>Crystals Collector Game © T.M. Sulik Promotions, LLC, 2019</h5>
+    </footer>
+  </body>
+</html>

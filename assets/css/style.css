@@ -1,0 +1,96 @@
+/* General styles */
+body {
+  margin: 0;
+  /* width: 100%; */
+  background-image: url('../images/forgotten_gate.png');
+}
+/* h1 {
+  font-size: 4em;
+} */
+h2 {
+  color: white;
+  font-size: 1em;
+}
+h3 {
+  font-size: .75em;
+}
+@font-face {
+  font-family: "Bevan";
+  src: url("../fonts/Bevan/Bevan-Regular.ttf");
+}
+.title {
+  height: 0px;
+}
+.heading {
+  font: 300 16px/22px "Bevan", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  line-height: 40px;
+}
+.wrapper {
+  width: 700px;
+  margin: 50px auto 0;
+}
+.buttons { 
+  text-align: center;
+}
+.small {
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+.box_text {
+  margin-top: 16px;
+}
+button {
+  background-color: Transparent;
+  border: none;
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+}
+.gem {
+  height: 90px;
+  width: 90px;
+}
+#instructions {
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  height: 160px;
+}
+.instructions_text {
+  margin: 0; 
+  padding: 0;
+}
+.box {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  overflow: auto;
+  text-align: center;
+  background: darkslategray;
+  color: white;
+  border: 4px;
+  border-style: solid;
+  border-color: orange;
+  padding: 10px;
+  font-size: 3em;
+}
+.tiny {
+  height: 40px;
+  width: 200px;
+  background: black;
+  color: white;
+  float: right;
+  margin: 0;
+}
+.wide {
+  font-size: 1em;
+}
+.footer {
+  color: antiquewhite;
+  text-shadow: 2px 2px black;
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+  padding: 30px;
+}
